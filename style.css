@@ -51,10 +51,11 @@ nav ul li a:hover {
 
 .hero {
   position: relative;
-  background: url("bg-hero.png") no-repeat center center;
-  background-size: cover;
+  background: url("bg-hero.png") no-repeat center top;
+  background-size: contain;   /* better for detailed images like OSP logo */
+  background-repeat: no-repeat;
   width: 100%;
-  height: 100vh; /* Full screen height */
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
